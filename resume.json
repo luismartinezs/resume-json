@@ -41,9 +41,8 @@
     {
       "position": "Frontend Developer",
       "company": "Toptal",
-      "division": "Giga Science Press",
       "dateStart": "2023-08",
-      "dateEnd": null,
+      "dateEnd": "current",
       "responsibilities": [
         "Performed an accessibility audit of the full public site and fixed all existing accessibility issues.",
         "Updated the admin section of the site from a legacy styling to the newer styling of the public pages, filling the gaps to match the modern styling when necessary.",
