@@ -8,18 +8,21 @@ type Resume = {
   about: string
   mostAmazingDevelopment?: string
   preferredEnvironment?: Array<string>
-  languages?: Array<string>
+  availability?: string
+  languages?: Array<{
+    name: string
+    level: 'Native' | 'Fluent' | 'Intermediate' | 'Basic'
+  }>
   citizenship?: string
-  social?: {
-    linkedin: string
-    github: string
-    x: string
-    website: string
-  }
+  social?: Array<{
+    name: string
+    url: string
+  }>,
   contact: {
     email?: string
     phone?: string
     location?: string
+    address?: string
     skype?: string
   }
   education: Array<{
@@ -59,5 +62,6 @@ type Resume = {
     repositoryUrl?: string
     description: string
     skills?: Array<string>
+    star?: boolean
   }>
 }
