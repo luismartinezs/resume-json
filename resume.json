@@ -457,16 +457,50 @@
   ],
   "projects": [
     {
+      "name": "React Katas AI Maker",
+      "type": "Personal",
+      "url": "https://react-katas-ai-maker.vercel.app/",
+      "github": "https://github.com/luismartinezs/react-katas-ai-workflow",
+      "description": "React Katas AI Maker is an app that takes React docs as input, gives the user a few options and outputs the full code for an AI generated React Kata, including final code, starting code and README file, to practice the concepts.",
+      "skills": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Vercel",
+        "shadcn/ui"
+      ]
+    },
+    {
       "name": "Checklist App for Elden Ring",
       "type": "Personal",
       "url": "https://eldenringbuilds.vercel.app",
-      "description": "A personal project built from scratch with Next.js, React and Tailwind CSS. It shows a checklist of items for the videogame Elden Ring. The user can create a profile and persist the checked items. The app is fully client side so the data is stored in the browser.",
-      "skills": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Vercel"]
+      "description": "A personal project built from scratch with Next.js, React and Tailwind CSS, with currently around 100 daily users. It shows a checklist of items for the videogame Elden Ring. The user can create a profile and persist the checked items. The app is fully client side so the data is stored in the browser.",
+      "skills": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Vercel",
+        "PWA"
+      ]
     },
     {
       "name": "Habits App",
       "type": "Personal",
-      "description": "A web app built with React, Firebase, TailwindCSS, and Mantine.dev and bootstrapped from my React starter template. The server state was handled with React-Query, and the global client state was conducted with Redux Toolkit. It allows the user to schedule habits. For example, the user may create a routine titled 'water the plants' with a recurrence of one day."
+      "url": "https://habits-app.vercel.app",
+      "description": "A web app built with React, Firebase, TailwindCSS, and Mantine.dev and bootstrapped from my React starter template. The server state was handled with React-Query, and the global client state was conducted with Redux Toolkit. It allows the user to schedule habits. For example, the user may create a routine titled 'water the plants' with a recurrence of one day.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Firebase",
+        "Mantine",
+        "Redux Toolkit",
+        "Tailwind CSS",
+        "Vite",
+        "ESLint",
+        "plop"
+      ]
     },
     {
       "name": "Landing Page Editor",
@@ -476,12 +510,43 @@
     {
       "name": "Weather Wardrobe Wizard",
       "type": "Personal",
-      "description": "The Weather Wardrobe Wizard sends users weather forecasts and corresponding clothing suggestions. Users can toggle between metric and imperial units, list and image view of clothing, and light and dark themes. Selections are locally stored for guest users, while signed-in users have persistent data stored in Firebase. Premium users enjoy AI-powered packing recommendations from OpenAI. The application was developed with Next.js, React, TypeScript, and Zustand and combines weather forecasts with clothing advice. OpenWeather API powers the real-time data, and the UI is crafted with Chakra UI. Firebase Firestore handles real-time database updates, while Stripe facilitates payments for premium services. Multi-language support and error tracking with Sentry are other key features."
+      "description": "The Weather Wardrobe Wizard sends users weather forecasts and corresponding clothing suggestions. Users can toggle between metric and imperial units, list and image view of clothing, and light and dark themes. Selections are locally stored for guest users, while signed-in users have persistent data stored in Firebase. Premium users enjoy AI-powered packing recommendations from OpenAI. The application was developed with Next.js, React, TypeScript, and Zustand and combines weather forecasts with clothing advice. OpenWeather API powers the real-time data, and the UI is crafted with Chakra UI. Firebase Firestore handles real-time database updates, while Stripe facilitates payments for premium services. Multi-language support and error tracking with Sentry are other key features.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Chakra UI",
+        "Zustand",
+        "React Query",
+        "Immer",
+        "React Hook Form",
+        "Firebase",
+        "internationalization",
+        "Recharts",
+        "Stripe",
+        "Sentry",
+        "Jest",
+        "Testing Library",
+        "Playwright"
+      ]
     },
     {
       "name": "AthleanX Home Workout App",
       "type": "Personal",
-      "description": "A progressive web application for mobile devices that helps with workouts at home. The app is a static single-page application developed with Vue 2 that behaves like a native mobile app. I designed and created the UI from scratch using Figma and Tailwind CSS."
+      "description": "A progressive web application for mobile devices that helps with workouts at home. The app is a static single-page application developed with Vue 2 that behaves like a native mobile app. I designed and created the UI from scratch using Figma and Tailwind CSS.",
+      "skills": [
+        "Vue 2",
+        "Tailwind CSS",
+        "Figma",
+        "Vuex",
+        "Vue router",
+        "ESLint",
+        "PWA",
+        "UI Design",
+        "Mobile Web Development",
+        "Frontend Development",
+        "ECMAScript (ES6)"
+      ]
     }
   ]
 }
