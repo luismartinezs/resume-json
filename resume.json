@@ -1,27 +1,208 @@
 {
-  "name": "Your Name",
-  "title": "Your Title",
-  "contact": {
-    "email": "your.email@example.com",
-    "phone": "+1 234 567 8900",
-    "location": "City, Country"
-  },
-  "summary": "A brief professional summary...",
-  "experience": [
-    {
-      "company": "Company Name",
-      "position": "Your Position",
-      "startDate": "YYYY-MM",
-      "endDate": "YYYY-MM or 'Present'",
-      "description": "Your responsibilities and achievements..."
-    }
+  "fullName": "Luis Martinez Suarez",
+  "about": "Luis is a highly skilled front-end developer with four years of experience in front-end frameworks in the React and Vue ecosystems. He is passionate about crafting clean, well-structured code that adheres to the best practices, ensuring code reviewers can easily understand it. Luis is committed to staying up to date with industry developments and is continuously honing his skills.",
+  "mostAmazingDevelopment": "A component library that allows non-technical content creators to create and edit landing pages using the Storyblok CMS",
+  "preferredEnvironment": [
+    "React",
+    "Next.js",
+    "Firebase",
+    "Visual Studio Code (VS Code)",
+    "Tailwind CSS",
+    "Mantine",
+    "Vite",
+    "Front-end Development",
+    "ECMAScript (ES6)"
   ],
   "education": [
     {
-      "institution": "University Name",
-      "degree": "Your Degree",
-      "graduationDate": "YYYY-MM"
+      "degree": "PhD",
+      "institution": "Ruhr University Bochum",
+      "location": "Bochum, Germany",
+      "yearStart": 2009,
+      "yearEnd": 2014
+    },
+    {
+      "degree": "Master's Degree",
+      "institution": "University of Barcelona",
+      "location": "Barcelona, Spain",
+      "yearStart": 2008,
+      "yearEnd": 2009
+    },
+    {
+      "degree": "Bachelor's Degree",
+      "institution": "University of Barcelona",
+      "location": "Barcelona, Spain",
+      "yearStart": 2003,
+      "yearEnd": 2008
     }
   ],
-  "skills": ["Skill 1", "Skill 2", "Skill 3"]
+  "workExperience": [
+    {
+      "position": "Frontend Developer",
+      "company": "Science Journal Company",
+      "division": "Giga Science Press",
+      "responsibilities": [
+        "Performed an accessibility audit of the full public site and fixed all existing accessibility issues.",
+        "Updated the admin section of the site from a legacy styling to the newer styling of the public pages, filling the gaps to match the modern styling when necessary.",
+        "Updated the style guide to include the visual changes derived from the accessibility improvements in public pages and new design tokens from the admin pages.",
+        "Revamped Vue 2 widget across the board: by updating dependencies, refactoring and improving the code, auditing and fixing accessibility issues, and fixing crossbrowser issues.",
+        "Timely and effectively communicated with management and the backend team to solve issues cooperatively through comments in github issues.",
+        "Adapted to working on the frontend of a PHP application, an unfamiliar language, and learned autonomously to work with the PHP framework maintaining a high quality standard and requesting feedback from reviewers when necessary."
+      ]
+    },
+    {
+      "position": "Front-end Developer",
+      "company": "Rolfs Flyg- & Bussresor Aktiebolag",
+      "dateStart": "2023",
+      "dateEnd": "2023",
+      "responsibilities": [
+        "Streamlined the front-end Nuxt codebase, reducing component size and thus boosting the maintainability of the code.",
+        "Developed and instituted a best coding practices document, serving as the team's blueprint for consistent and efficient code development, thus leaving behind a more maintainable codebase.",
+        "Identified and rectified Vuex store misuses, transitioning inappropriate actions to getters using Vuex best practices.",
+        "Delivered key features, including an enhanced web search via region and campaign filters, more usable date range selection, and dynamic campaign pages, increasing site usability.",
+        "Expanded end-to-end testing coverage to the most critical use cases of the web search, significantly reducing bug occurrences and improving overall product quality and developer productivity.",
+        "Handled successfully the codebase ownership transition from a departing developer in two weeks, taking proactive ownership of the front-end code.",
+        "Helped onboard a new front-end developer by introducing him to the key aspects of the codebase and thoroughly reviewing his code.",
+        "Used Jira for task management and Slack for communication."
+      ]
+    },
+    {
+      "position": "Accessibility Developer",
+      "dateStart": "2022",
+      "dateEnd": "2023",
+      "responsibilities": [
+        "Improved the accessibility of a React app by identifying, prioritizing, and resolving issues, resulting in a fully accessible application with no reported issues in the final audit.",
+        "Completed the project successfully within the allocated time frame, meeting client needs and expectations.",
+        "Wrote clean and well-documented pull requests, resulting in efficient reviews and easier ticket resolution.",
+        "Communicated daily and effectively with the client, providing regular updates and addressing any concerns in a timely manner.",
+        "Identified additional accessibility issues proactively beyond the initial audit, ensuring a comprehensive resolution of all important issues"
+      ],
+      "skills": [
+        "HTML5", "CSS", "JavaScript", "React", "Accessibility", "WCAG 2", "Selenium", "UI Testing",
+        "TypeScript", "RxJS", "Sass", "Jest", "Front-end Development", "ECMAScript (ES6)", "Testing"
+      ]
+    },
+    {
+      "position": "Front-end Developer",
+      "company": "Passionate People",
+      "dateStart": "2021",
+      "dateEnd": "2022",
+      "responsibilities": [
+        "Maintained a Nuxt.js internal platform, using Nuxt.js 2, composition API, Tailwind CSS, Sanity, and Storybook as part of the tech stack, migrating the Options API components to Composition API, and refactoring and extending existing features.",
+        "Prepared the Nuxt.js-based platform for a live conference by manually testing the main user flows, finding and fixing bugs, and making small improvements to the site layout.",
+        "Maintained a back-end platform written in Node.js with serverless infrastructure and integrated it with the Sanity client. Tested the existing endpoints manually and created new endpoints for reading and editing data from the database."
+      ],
+      "industries": ["Startups", "Software", "Consulting"],
+      "skills": [
+        "Nuxt.js", "Tailwind CSS", "Storybook", "Node.js", "Storyblok", "Visual Studio Code", "Vue",
+        "CSS", "HTML", "Vue 2", "Vue 3", "ESLint", "Git", "GitLab CI/CD", "HTML DOM", "HTML5", "HTML4",
+        "CSS4", "CSS3", "NPM", "JSON", "Babel", "YARN", "Webpack 4", "Lodash", "Cloudflare", "Linux",
+        "Ubuntu Linux", "Ubuntu", "UI Frameworks", "Wireframing", "Web UX", "Flexbox", "Slack",
+        "Remote Work", "Sanity", "Front-end", "Startups", "UI Components",
+        "Content Management Systems (CMS)", "API Integration"
+      ]
+    },
+    {
+      "position": "Medior Front-end Developer",
+      "company": "Jobsrepublic",
+      "dateStart": "2020",
+      "dateEnd": "2021",
+      "responsibilities": [
+        "Developed a Nuxt component library styled with TailwindCSS from scratch and connected it to the Storyblok CMS. The product was used by content managers to create landing pages from scratch in a matter of days without the help of the development team.",
+        "Adapted components from the Tailwind UI template library to suit the design needs.",
+        "Audited every component of the UI in terms of accessibility, on-page technical SEO, and performance to achieve a high lighthouse rank.",
+        "Obtained feedback from content managers to improve the CMS, updating existing components to include more features, and releasing new components, following a weekly release cycle.",
+        "Used Jira as a ticketing system and Slack as a communication tool."
+      ],
+      "industries": ["Startups", "HR & Staffing", "Business Services"],
+      "skills": [
+        "Nuxt.js", "Visual Studio Code", "Vue", "Tailwind CSS", "Storyblok", "Agile Software Development",
+        "CSS", "HTML", "Vue 2", "Adobe Photoshop", "Vue 3", "PostgreSQL", "ESLint", "Git", "GitLab CI/CD",
+        "HTML DOM", "HTML5", "HTML4", "CSS4", "CSS3", "CSS Grid", "NPM", "Vuex", "JSON", "Babel", "Bash",
+        "Vite", "Lodash", "Amazon S3 (AWS S3)", "Amazon ECS (Amazon Elastic Container Service)",
+        "Amazon Route 53", "Linux", "Ubuntu Linux", "Ubuntu", "UI Frameworks", "Web UX", "Flexbox",
+        "Jira", "Slack", "Scrum", "Remote Work", "Front-end", "Startups", "UI Components",
+        "Content Management Systems (CMS)", "UI Design", "API Integration"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Web Accessibility",
+      "issuer": "Udacity",
+      "dateStart": "2020",
+      "dateEnd": "Present"
+    },
+    {
+      "name": "The Complete Junior to Senior Web Developer Roadmap",
+      "issuer": "Udemy",
+      "dateStart": "2019",
+      "dateEnd": "Present"
+    },
+    {
+      "name": "Front-end Development Libraries",
+      "issuer": "freeCodeCamp",
+      "dateStart": "2018",
+      "dateEnd": "Present"
+    },
+    {
+      "name": "JavaScript Algorithms and Data Structures",
+      "issuer": "freeCodeCamp",
+      "dateStart": "2018",
+      "dateEnd": "Present"
+    },
+    {
+      "name": "Responsive Web Design",
+      "issuer": "freeCodeCamp",
+      "dateStart": "2018",
+      "dateEnd": "Present"
+    }
+  ],
+  "skills": [
+    {"name": "JavaScript", "yearsOfExperience": 4},
+    {"name": "CSS", "yearsOfExperience": 3},
+    {"name": "HTML5", "yearsOfExperience": 3},
+    {"name": "Vue", "yearsOfExperience": 3},
+    {"name": "Storyblok", "yearsOfExperience": 2},
+    {"name": "Tailwind CSS", "yearsOfExperience": 2},
+    {"name": "Firebase", "yearsOfExperience": 1},
+    {"name": "React", "yearsOfExperience": 1},
+    {"name": "Adobe Photoshop", "yearsOfExperience": 5},
+    {"name": "ECMAScript (ES6)", "yearsOfExperience": 4},
+    {"name": "Front-end Development", "yearsOfExperience": 4},
+    {"name": "JavaScript Libraries", "yearsOfExperience": 4},
+    {"name": "Responsive Layout", "yearsOfExperience": 4},
+    {"name": "Responsive Web Design (RWD)", "yearsOfExperience": 4},
+    {"name": "Testing", "yearsOfExperience": 4},
+    {"name": "User Interface (UI)", "yearsOfExperience": 4}
+  ],
+  "projects": [
+    {
+      "name": "Checklist App for Elden Ring",
+      "type": "Personal",
+      "url": "https://eldenringbuilds.vercel.app",
+      "description": "A personal project built from scratch with Next.js, React and Tailwind CSS. It shows a checklist of items for the videogame Elden Ring. The user can create a profile and persist the checked items. The app is fully client side so the data is stored in the browser.",
+      "skills": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Vercel"]
+    },
+    {
+      "name": "Habits App",
+      "type": "Personal",
+      "description": "A web app built with React, Firebase, TailwindCSS, and Mantine.dev and bootstrapped from my React starter template. The server state was handled with React-Query, and the global client state was conducted with Redux Toolkit. It allows the user to schedule habits. For example, the user may create a routine titled 'water the plants' with a recurrence of one day."
+    },
+    {
+      "name": "Landing Page Editor",
+      "type": "Corporate",
+      "description": "A Nuxt component library built for Jobsrepublic was integrated with the Storyblok CMS so that content managers could create and edit new landing pages from scratch. Every component included team brainstorming with the content creators to cater to their needs, a development phase and accessibility, and performance and SEO audit to achieve a high lighthouse rank. Changes requested by the team were implemented often within the same day. Tailwind CSS was used for styling, and the UI design was adapted from that provided by the Tailwind UI template library. Each landing page was its own multipage site."
+    },
+    {
+      "name": "Weather Wardrobe Wizard",
+      "type": "Personal",
+      "description": "The Weather Wardrobe Wizard sends users weather forecasts and corresponding clothing suggestions. Users can toggle between metric and imperial units, list and image view of clothing, and light and dark themes. Selections are locally stored for guest users, while signed-in users have persistent data stored in Firebase. Premium users enjoy AI-powered packing recommendations from OpenAI. The application was developed with Next.js, React, TypeScript, and Zustand and combines weather forecasts with clothing advice. OpenWeather API powers the real-time data, and the UI is crafted with Chakra UI. Firebase Firestore handles real-time database updates, while Stripe facilitates payments for premium services. Multi-language support and error tracking with Sentry are other key features."
+    },
+    {
+      "name": "AthleanX Home Workout App",
+      "type": "Personal",
+      "description": "A progressive web application for mobile devices that helps with workouts at home. The app is a static single-page application developed with Vue 2 that behaves like a native mobile app. I designed and created the UI from scratch using Figma and Tailwind CSS."
+    }
+  ]
 }
