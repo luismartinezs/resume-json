@@ -3,6 +3,8 @@ type DateEnd = string | 'Present'
 
 type Resume = {
   fullName: string
+  jobTitle: string
+  profilePictureUrl?: string
   about: string
   mostAmazingDevelopment?: string
   preferredEnvironment?: Array<string>
