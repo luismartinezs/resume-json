@@ -4,8 +4,22 @@ type DateEnd = string | 'Present'
 type Resume = {
   fullName: string
   about: string
-  mostAmazingDevelopment: string
-  preferredEnvironment: Array<string>
+  mostAmazingDevelopment?: string
+  preferredEnvironment?: Array<string>
+  languages?: Array<string>
+  citizenship?: string
+  social?: {
+    linkedin: string
+    github: string
+    x: string
+    website: string
+  }
+  contact: {
+    email?: string
+    phone?: string
+    location?: string
+    skype?: string
+  }
   education: Array<{
     degree: string
     field: string
@@ -26,17 +40,21 @@ type Resume = {
   certifications: Array<{
     name: string
     issuer: string
-    dateStart: DateStart
-    dateEnd: DateEnd
+    skills: Array<string>
+    link?: string
+    issueDate: DateStart
+    expirationDate?: DateEnd
   }>
   skills: Array<{
+    star?: boolean
     name: string
-    yearsOfExperience: number
+    years?: number
   }>
   projects: Array<{
     name: string
     type: 'Personal' | 'Corporate'
     url?: string
+    repositoryUrl?: string
     description: string
     skills?: Array<string>
   }>
