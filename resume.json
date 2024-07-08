@@ -527,7 +527,8 @@
     { "name": "Adobe Photoshop", "years": 5 },
     { "name": "APIs", "years": 5 },
     { "name": "ECMAScript (ES6)", "years": 5 },
-    { "name": "Front-end Development", "years": 5 },
+    { "star": true, "name": "Front-end Development", "years": 5 },
+    { "star": true, "name": "Web Development", "years": 5 },
     { "name": "JavaScript Libraries", "years": 5 },
     { "name": "Responsive Layout", "years": 5 },
     { "name": "Responsive Web Design (RWD)", "years": 5 },
@@ -647,8 +648,7 @@
     { "name": "i18n" },
     { "name": "Less" },
     { "name": "Multilingual Websites" },
-    { "name": "OpenAI GPT-3 API", "years": 1 },
-    { "name": "OpenAI GPT-4 API", "years": 1 },
+    { "name": "OpenAI API", "years": 2 },
     { "name": "PHP" },
     { "name": "Playwright" },
     { "name": "Progressive Web Applications (PWA)", "years": 2 },
@@ -657,7 +657,7 @@
     { "name": "Stripe API", "years": 1 },
     { "name": "User Experience (UX)" },
     { "name": "Vercel", "years": 2 },
-    { "name": "Web Accessibility", "years": 2 },
+    { "star": true, "name": "Web Accessibility", "years": 2 },
     { "name": "Zustand", "years": 1 }
   ],
   "projects": [
