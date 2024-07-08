@@ -66,6 +66,7 @@
   "workExperience": [
     {
       "position": "Frontend Developer",
+      "title": "Senior Frontend Developer - Accessibility Consultant",
       "company": "Toptal",
       "dateStart": "2023-08",
       "dateEnd": "current",
@@ -89,6 +90,7 @@
     },
     {
       "position": "Frontend Developer",
+      "title": "Senior Frontend Developer - Nuxt.js Specialist",
       "company": "Toptal",
       "dateStart": "2023-03",
       "dateEnd": "2023-05",
@@ -119,6 +121,7 @@
     },
     {
       "position": "Accessibility Consultant",
+      "title": "Accessibility Consultant - React Specialist",
       "company": "Toptal",
       "dateStart": "2022-09",
       "dateEnd": "2023-03",
@@ -149,6 +152,7 @@
     },
     {
       "position": "Frontend Developer",
+      "title": "Frontend Developer - Nuxt.js and Node.js Specialist",
       "company": "Passionate People",
       "dateStart": "2021-10",
       "dateEnd": "2022-06",
@@ -204,6 +208,7 @@
     },
     {
       "position": "Frontend Developer",
+      "title": "Frontend Developer - Nuxt.js and Tailwind Specialist",
       "company": "Jobsrepublic",
       "dateStart": "2020-06",
       "dateEnd": "2021-09",
@@ -274,6 +279,7 @@
     },
     {
       "position": "Frontend Developer",
+      "title": "Frontend Developer - Nuxt.js Specialist",
       "company": "Jobsrepublic",
       "dateStart": "2019-10",
       "dateEnd": "2020-06",
@@ -352,6 +358,7 @@
     },
     {
       "position": "Junior Frontend Developer",
+      "title": "Junior Frontend Developer - Vue.js and Data Visualization Specialist",
       "company": "Jobsrepublic",
       "dateStart": "2019-02",
       "dateEnd": "2019-10",
