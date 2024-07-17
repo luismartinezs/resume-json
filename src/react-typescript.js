@@ -4,22 +4,23 @@ import education from "../_partials/education.js";
 import projects from "../_partials/projects.js";
 import skills from "../_partials/skills.js";
 import workExperience from "../_partials/work-experience.js";
-import { filterBySkill } from "./util.js";
+import { filterBySkill, starItemBySkill } from "./util.js";
 
 export default {
   ...basicInfo,
-  "jobTitle": "React Typescript Web Developer",
-  "about": "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He is passionate about crafting clean, well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
-  "preferredEnvironment": [
+  jobTitle: "React Typescript Web Developer",
+  about:
+    "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He is passionate about crafting clean, well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
+  preferredEnvironment: [
     "React",
     "Typescript",
     "Tailwind CSS",
     "Next.js",
-    "Visual Studio Code (VS Code)"
+    "Visual Studio Code (VS Code)",
   ],
-  "education": education,
-  "workExperience": filterBySkill(workExperience, ['react', 'typescript']),
-  "certifications": filterBySkill(certifications, ['react', 'typescript']),
-  "skills": skills,
-  "projects": filterBySkill(projects, ['react', 'typescript'])
-}
+  education: education,
+  workExperience: starItemBySkill(workExperience, ["react", "typescript"]),
+  certifications: filterBySkill(certifications, ["react", "typescript"]),
+  skills: skills,
+  projects: filterBySkill(projects, ["react", "typescript"]),
+};

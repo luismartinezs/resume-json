@@ -34,6 +34,7 @@ type Resume = {
     dateEnd: string
   }>
   workExperience: Array<{
+    star?: boolean
     position: string
     company: string
     dateStart: DateStart
