@@ -11,7 +11,8 @@ export default [
       "Tailwind CSS",
       "TypeScript",
       "Vercel",
-      "shadcn/ui"
+      "shadcn/ui",
+      "OpenAI API"
     ]
   },
   {
@@ -84,6 +85,7 @@ export default [
       "React",
       "TypeScript",
       "Next.js",
+      "OpenAI API",
       "Chakra UI",
       "Zustand",
       "React Query",
