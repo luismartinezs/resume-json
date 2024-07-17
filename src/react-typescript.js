@@ -4,6 +4,7 @@ import education from "../_partials/education.js";
 import projects from "../_partials/projects.js";
 import skills from "../_partials/skills.js";
 import workExperience from "../_partials/work-experience.js";
+import { filterBySkill } from "./util.js";
 
 export default {
   ...basicInfo,
@@ -17,8 +18,8 @@ export default {
     "Visual Studio Code (VS Code)"
   ],
   "education": education,
-  "workExperience": workExperience,
-  "certifications": certifications,
+  "workExperience": filterBySkill(workExperience, ['react', 'typescript']),
+  "certifications": filterBySkill(certifications, ['react', 'typescript']),
   "skills": skills,
-  "projects": projects
+  "projects": filterBySkill(projects, ['react', 'typescript'])
 }
