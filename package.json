@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "build": "node generate-json.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-  },
-  "devDependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }

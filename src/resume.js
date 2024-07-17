@@ -1,9 +1,9 @@
-import basicInfo from "./_partials/basic-info";
-import certifications from "./_partials/certifications";
-import education from "./_partials/education";
-import projects from "./_partials/projects";
-import skills from "./_partials/skills";
-import workExperience from "./_partials/work-experience";
+import basicInfo from "../_partials/basic-info.js";
+import certifications from "../_partials/certifications.js";
+import education from "../_partials/education.js";
+import projects from "../_partials/projects.js";
+import skills from "../_partials/skills.js";
+import workExperience from "../_partials/work-experience.js";
 
 export default {
   ...basicInfo,
