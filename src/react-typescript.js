@@ -20,7 +20,7 @@ export default {
   ],
   education: education,
   workExperience: starItemBySkill(workExperience, ["react", "typescript"]),
-  certifications: filterBySkill(certifications, ["react", "typescript"]),
+  certifications: starItemBySkill(certifications, ["react", "typescript"]),
   skills: skills,
-  projects: filterBySkill(projects, ["react", "typescript"]),
+  projects: starItemBySkill(projects, ["react", "typescript"]),
 };

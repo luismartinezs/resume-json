@@ -44,6 +44,7 @@ type Resume = {
     industries?: Array<string>
   }>
   certifications: Array<{
+    star?: boolean
     name: string
     issuer: string
     skills: Array<string>
