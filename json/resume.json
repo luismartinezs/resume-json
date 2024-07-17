@@ -1114,7 +1114,8 @@
         "Tailwind CSS",
         "TypeScript",
         "Vercel",
-        "shadcn/ui"
+        "shadcn/ui",
+        "OpenAI API"
       ]
     },
     {
@@ -1187,6 +1188,7 @@
         "React",
         "TypeScript",
         "Next.js",
+        "OpenAI API",
         "Chakra UI",
         "Zustand",
         "React Query",
