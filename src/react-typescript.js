@@ -8,7 +8,7 @@ import { starItemBySkill } from "./util.js";
 
 export default {
   ...basicInfo,
-  jobTitle: "React Typescript Web Developer",
+  jobTitle: "Software Engineer | Typescript, React, Next.js",
   about:
     "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He is passionate about crafting clean, well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
   mostAmazingDevelopment:
