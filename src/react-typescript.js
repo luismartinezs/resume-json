@@ -12,7 +12,7 @@ export default {
   about:
     "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He is passionate about crafting clean, well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
   mostAmazingDevelopment:
-    "Audited and enhanced the web accessibility of a complex enterprise application using React and TypeScript, well within allocated budget constraints, for a company valued at $760 million (as of 2021)",
+    "Audited and enhanced the web accessibility of a React + Typescript enterprise application, well within allocated budget constraints, for a company valued at $760 million (as of 2021)",
   preferredEnvironment: [
     "React",
     "Typescript",
