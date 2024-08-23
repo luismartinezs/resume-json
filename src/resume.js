@@ -4,6 +4,7 @@ import education from "../_partials/education.js";
 import projects from "../_partials/projects.js";
 import skills from "../_partials/skills.js";
 import workExperience from "../_partials/work-experience.js";
+import keywords from "../_partials/keywords.js";
 
 export default {
   ...basicInfo,
@@ -20,5 +21,6 @@ export default {
   "workExperience": workExperience,
   "certifications": certifications,
   "skills": skills,
-  "projects": projects
+  "projects": projects,
+  "keywords" : keywords
 }

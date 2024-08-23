@@ -1,7 +1,7 @@
 {
   "fullName": "Luis Martinez Suarez",
   "jobTitle": "Software Engineer | Typescript, React, Next.js",
-  "about": "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He is passionate about crafting clean, well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
+  "about": "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He writes clean, readable and well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
   "mostAmazingDevelopment": "Audited and enhanced the web accessibility of a React + Typescript enterprise application, well within allocated budget constraints, for a company valued at $760 million (as of 2021)",
   "languages": [
     {
@@ -1351,5 +1351,26 @@
         "ECMAScript (ES6)"
       ]
     }
+  ],
+  "keywords": [
+    "React",
+    "Vue",
+    "Information Technology",
+    "Tailwind CSS",
+    "Science",
+    "CMS",
+    "TypeScript",
+    "Next.js",
+    "Nuxt.js",
+    "Skype",
+    "Frontend",
+    "WCAG",
+    "Web",
+    "Styling",
+    "Developer",
+    "Accessibility",
+    "Pages",
+    "Code",
+    "Development"
   ]
 }

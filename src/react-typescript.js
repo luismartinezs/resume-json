@@ -4,13 +4,15 @@ import education from "../_partials/education.js";
 import projects from "../_partials/projects.js";
 import skills from "../_partials/skills.js";
 import workExperience from "../_partials/work-experience.js";
+import keywords from "../_partials/keywords.js";
 import { starItemBySkill } from "./util.js";
+
 
 export default {
   ...basicInfo,
   jobTitle: "Software Engineer | Typescript, React, Next.js",
   about:
-    "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He is passionate about crafting clean, well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
+    "Luis has 5 years of experience as web developer, and 2 years of experience with React and Typescript. He writes clean, readable and well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
   mostAmazingDevelopment:
     "Audited and enhanced the web accessibility of a React + Typescript enterprise application, well within allocated budget constraints, for a company valued at $760 million (as of 2021)",
   preferredEnvironment: [
@@ -25,4 +27,5 @@ export default {
   certifications: starItemBySkill(certifications, ["react", "typescript"]),
   skills: skills,
   projects: starItemBySkill(projects, ["react", "typescript"]),
+  "keywords" : keywords
 };
