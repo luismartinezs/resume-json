@@ -3,7 +3,7 @@ export default [
     position: "Frontend Developer",
     title: "Senior Frontend Developer - Web Accessibility / WCAG 2 Consultant",
     company: "Toptal",
-    url: "https://www.toptal.com/",
+    companyUrl: "https://www.toptal.com/",
     dateStart: "2023-08",
     dateEnd: "current",
     responsibilities: [
@@ -28,7 +28,7 @@ export default [
     position: "Frontend Developer",
     title: "Senior Frontend Developer - Vue / Nuxt.js Specialist",
     company: "Toptal",
-    url: "https://www.toptal.com/",
+    companyUrl: "https://www.toptal.com/",
     dateStart: "2023-03",
     dateEnd: "2023-05",
     responsibilities: [
@@ -60,7 +60,7 @@ export default [
     position: "Accessibility Consultant",
     title: "Accessibility Consultant - React / Typescript Specialist",
     company: "Toptal",
-    url: "https://www.toptal.com/",
+    companyUrl: "https://www.toptal.com/",
     dateStart: "2022-09",
     dateEnd: "2023-03",
     responsibilities: [
@@ -92,7 +92,7 @@ export default [
     position: "Frontend Developer",
     title: "Frontend Developer - Vue / Nuxt.js Specialist",
     company: "Passionate People",
-    url: "https://passionatepeople.io/",
+    companyUrl: "https://passionatepeople.io/",
     dateStart: "2021-10",
     dateEnd: "2022-06",
     responsibilities: [
@@ -145,7 +145,7 @@ export default [
     position: "Frontend Developer",
     title: "Frontend Developer - Vue / Nuxt.js and Tailwind CSS Specialist",
     company: "Jobsrepublic",
-    url: "https://jobsrepublic.com/",
+    companyUrl: "https://jobsrepublic.com/",
     dateStart: "2020-06",
     dateEnd: "2021-09",
     responsibilities: [
@@ -213,7 +213,7 @@ export default [
     position: "Frontend Developer",
     title: "Frontend Developer - Vue and Nuxt.js Specialist",
     company: "Jobsrepublic",
-    url: "https://jobsrepublic.com/",
+    companyUrl: "https://jobsrepublic.com/",
     dateStart: "2019-10",
     dateEnd: "2020-06",
     responsibilities: [
@@ -291,7 +291,7 @@ export default [
     position: "Junior Frontend Developer",
     title: "Junior Frontend Developer - Vue.js and Data Visualization",
     company: "Jobsrepublic",
-    url: "https://jobsrepublic.com/",
+    companyUrl: "https://jobsrepublic.com/",
     dateStart: "2019-02",
     dateEnd: "2019-10",
     responsibilities: [
