@@ -1116,6 +1116,28 @@
       ]
     },
     {
+      "name": "Telegram AI Bot Project Bulldozer",
+      "type": "Personal",
+      "url": "https://t.me/ProjectBullzoderBot",
+      "description": "The Bulldozer Telegram bot is a multi-functional chatbot integrated with Telegram, OpenAI, Stripe, and Cloudflare. It handles user conversations, subscriptions, and invoicing, while also supporting advanced features like message debouncing, file handling, and reminders. It is deployed via Cloudflare Workers and connects to a SQLite database",
+      "skills": [
+        "Telegram Bot Development",
+        "TypeScript",
+        "Stripe Integration",
+        "OpenAI Integration",
+        "Serverless Architecture",
+        "SQLite",
+        "Webhooks",
+        "Cloudflare Workers",
+        "JavaScript",
+        "API Development",
+        "Cloudflare D1 Database",
+        "Ngrok",
+        "Zod",
+        "DevOps"
+      ]
+    },
+    {
       "name": "React Katas AI Maker",
       "type": "Personal",
       "url": "https://react-katas-ai-maker.vercel.app/",
