@@ -1,7 +1,7 @@
 {
   "fullName": "Luis Martinez Suarez",
   "jobTitle": "Web Developer | Information Technology | PhD in Science",
-  "about": "Luis is a skilled web developer with 5 years of experience in React and Vue. He writes clean, readable and well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
+  "about": "A Senior Frontend Developer with extensive experience in React and Vue, specializing in web accessibility and modern styling updates. Eager to leverage expertise in frontend development and best coding practices to contribute to innovative web solutions as a Front End Web Developer.",
   "mostAmazingDevelopment": "A component library that allows non-technical content creators to create and edit landing pages using the Storyblok CMS",
   "languages": [
     {
@@ -78,9 +78,9 @@
       "dateStart": "2023-08",
       "dateEnd": "current",
       "responsibilities": [
-        "Performed an accessibility audit of the full public site and fixed all existing accessibility issues.",
+        "Performed an accessibility audit of the full public site and fixed all existing accessibility issues, enhancing user experience for individuals with disabilities.",
         "Updated the admin section of the site from a legacy styling to the newer styling of the public pages, filling the gaps to match the modern styling when necessary.",
-        "Revamped Vue 2 widget across the board: by updating dependencies, refactoring and improving the code, auditing and fixing accessibility issues, and fixing crossbrowser issues.",
+        "Revamped Vue 2 widget across the board: by updating dependencies, refactoring and improving the code, auditing and fixing crossbrowser issues.",
         "Updated the style guide to include the visual changes derived from the accessibility improvements in public pages and new design tokens from the admin pages.",
         "Timely and effectively communicated with management and the backend team to solve issues cooperatively through comments in github issues.",
         "Adapted to working on the frontend of a PHP application, an unfamiliar language, and learned autonomously to work with the PHP framework maintaining a high quality standard and requesting feedback from reviewers when necessary."
@@ -104,7 +104,7 @@
       "dateEnd": "2023-05",
       "responsibilities": [
         "Streamlined the front-end Nuxt codebase, reducing component size and thus boosting the maintainability of the code.",
-        "Developed and instituted a best coding practices document, serving as the team's blueprint for consistent and efficient code development, thus leaving behind a more maintainable codebase.",
+        "Developed and instituted a best coding practices document, which served as the team's blueprint for consistent and efficient code development, resulting in a more maintainable codebase.",
         "Identified and rectified Vuex store misuses, transitioning inappropriate actions to getters using Vuex best practices.",
         "Delivered key features, including an enhanced web search via region and campaign filters, more usable date range selection, and dynamic campaign pages, increasing site usability.",
         "Expanded end-to-end testing coverage to the most critical use cases of the web search, significantly reducing bug occurrences and improving overall product quality and developer productivity.",
@@ -167,9 +167,9 @@
       "dateStart": "2021-10",
       "dateEnd": "2022-06",
       "responsibilities": [
-        "Maintained a Nuxt.js internal platform, using Nuxt.js 2, composition API, Tailwind CSS, Sanity, and Storybook as part of the tech stack, migrating the Options API components to Composition API, and refactoring and extending existing features.",
-        "Prepared the Nuxt.js-based platform for a live conference by manually testing the main user flows, finding and fixing bugs, and making small improvements to the site layout.",
-        "Maintained a back-end platform written in Node.js with serverless infrastructure and integrated it with the Sanity client. Tested the existing endpoints manually and created new endpoints for reading and editing data from the database."
+        "Maintained a Nuxt.js internal platform using Nuxt.js 2, Composition API, Tailwind CSS, Sanity, and Storybook, successfully migrating Options API components to Composition API and enhancing existing features, which improved code maintainability and performance.",
+        "Prepared the Nuxt.js-based platform for a live conference by manually testing main user flows, identifying and fixing bugs, and enhancing site layout, ensuring a smooth and error-free user experience during the event.",
+        "Maintained a back-end platform written in Node.js with serverless infrastructure and integrated it with the Sanity client. Tested existing endpoints manually and created new endpoints for reading and editing data from the database, which enhanced data accessibility and system reliability."
       ],
       "industries": [
         "Startups",

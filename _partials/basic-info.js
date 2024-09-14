@@ -1,7 +1,7 @@
 export default {
   "fullName": "Luis Martinez Suarez",
   "jobTitle": "Web Developer | Information Technology | PhD in Science",
-  "about": "Luis is a skilled web developer with 5 years of experience in React and Vue. He writes clean, readable and well-structured code that follows best practices. Luis stays up to date with industry developments and continuously challenges himself with side projects.",
+  "about": "A Senior Frontend Developer with extensive experience in React and Vue, specializing in web accessibility and modern styling updates. Eager to leverage expertise in frontend development and best coding practices to contribute to innovative web solutions as a Front End Web Developer.",
   "mostAmazingDevelopment": "A component library that allows non-technical content creators to create and edit landing pages using the Storyblok CMS",
   "languages": [
     { "name": "Spanish", "level": "Native" },
