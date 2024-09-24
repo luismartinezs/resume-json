@@ -1119,7 +1119,7 @@
       "name": "Telegram AI Bot Project Bulldozer",
       "type": "Personal",
       "url": "https://t.me/ProjectBullzoderBot",
-      "description": "The Bulldozer Telegram bot is a multi-functional chatbot integrated with Telegram, OpenAI, Stripe, and Cloudflare. It handles user conversations, subscriptions, and invoicing, while also supporting advanced features like message debouncing, file handling, and reminders. It is deployed via Cloudflare Workers and connects to a SQLite database",
+      "description": "The Bulldozer Telegram bot is a multi-functional chatbot integrated with Telegram, OpenAI, Stripe, and Cloudflare. It handles user conversations, subscriptions, and invoicing. It supports conversation aware chat and images. It is deployed via Cloudflare Workers and connects to a SQLite database",
       "skills": [
         "Telegram Bot Development",
         "TypeScript",
