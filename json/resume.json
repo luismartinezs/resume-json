@@ -1206,6 +1206,158 @@
       ]
     },
     {
+      "name": "Maintenance Agents",
+      "type": "Personal",
+      "description": "Autonomous monitoring system for client websites. Scheduled agents built with Bun and Croner pull data from Sentry, Vercel, and Sanity, hand it to Claude for analysis via the Claude Code CLI (no API key, leveraging the Claude Pro/Max subscription), and post Telegram alerts when something needs attention. Agents are strictly read-only observers; any remediation is left to human approval. The suite covers Sentry triage, dependency hygiene, vulnerability scanning, security-header posture (CSP, HSTS, X-Frame-Options), broken-link patrol, asset-weight audit, Sanity housekeeping, and uptime monitoring. A Hono dashboard provides run history and status. Deployed on a Hetzner VPS managed with PM2.",
+      "skills": [
+        "Bun",
+        "Hono",
+        "TypeScript",
+        "PostgreSQL",
+        "Claude Code CLI",
+        "AI Agents",
+        "Cron Scheduling",
+        "Sentry",
+        "Vercel API",
+        "Sanity",
+        "Telegram Bot API",
+        "PM2",
+        "Hetzner",
+        "Observability",
+        "Zod"
+      ]
+    },
+    {
+      "name": "HelloSafelyFed",
+      "type": "Personal",
+      "url": "https://hellosafelyfed.appforgelabs.com/",
+      "description": "Hub-and-spoke food-safety platform that hosts multiple consumer-facing tools (menu-decoder, dishscout, tinyplates) under a single Google OAuth + magic-link auth, shared Stripe billing, and a credit-based API gating model. Built as a Bun monorepo with Vertical Slice Architecture on the backend: Express 5 with per-feature modules, a static Astro + Vue (TanStack Query) frontend, an Expo React Native shell, and a shared package layer (@repo/api-types, @repo/db, @repo/config) that prevents the data layer from leaking into the contract layer. Ships with custom architecture audit scripts (VSA cross-slice violations, FCIS purity, code-entropy) that run as part of the build pipeline. PostgreSQL + Drizzle, Redis for sessions and rate limiting, deployed via PM2 on a shared Hetzner VPS.",
+      "skills": [
+        "Bun",
+        "Monorepo",
+        "Express",
+        "Astro",
+        "Vue",
+        "TanStack Query",
+        "TypeScript",
+        "Vertical Slice Architecture",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "Redis",
+        "Stripe",
+        "RevenueCat",
+        "Google OAuth",
+        "Magic Link Auth",
+        "React Native",
+        "Expo",
+        "PM2",
+        "Architecture Audits"
+      ]
+    },
+    {
+      "name": "Shop Appforgelabs",
+      "type": "Personal",
+      "url": "https://shop.appforgelabs.com/",
+      "description": "Digital storefront for templates and downloadable products with both one-time purchases and a credit-based top-up model. Stripe-backed checkout for products and credit packs, subscription support, signed download URLs for owned products, and per-IP API rate limiting. Categorized product catalog (templates section and category index pages) and a blog with category routing for SEO. Built as a Bun monorepo: Express 5 backend with per-feature slices (auth, credits, downloads, owned-products, payments, rate-limit), static Astro + Vue frontend, PostgreSQL + Drizzle, Redis-backed sessions and rate limiting, PM2 on a Hetzner VPS.",
+      "skills": [
+        "Bun",
+        "Monorepo",
+        "Express",
+        "Astro",
+        "Vue",
+        "TypeScript",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "Redis",
+        "Stripe",
+        "E-commerce",
+        "Credits System",
+        "Subscriptions",
+        "Rate Limiting",
+        "Signed URLs",
+        "PM2",
+        "Hetzner"
+      ]
+    },
+    {
+      "name": "Vsevochart (Vampire Survivors Companion)",
+      "type": "Personal",
+      "url": "https://www.vsevochart.com",
+      "repositoryUrl": "https://github.com/luismartinezs/vampire-survivors-chart",
+      "description": "A companion chart for the videogame Vampire Survivors, showing weapons, passives, and evolution paths in a single searchable view. Around 20,000 monthly visitors. Built with Next.js 15, React 19, Tailwind 4, and Zustand, with Fuse.js powering fuzzy search across hundreds of game items. Game art is pipeline-converted from PNG sprite sheets into CSS background-position icons at build time, keeping the runtime asset footprint small. Hardened with a strict Content Security Policy, X-Frame-Options, and Referrer-Policy headers.",
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zustand",
+        "Radix UI",
+        "Fuse.js",
+        "Vitest",
+        "CSS Sprites",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "Elden Survivors",
+      "type": "Personal",
+      "url": "https://elden-survivors.vercel.app",
+      "repositoryUrl": "https://github.com/luismartinezs/elden-survivors",
+      "description": "A 'Bullet Heaven' (Vampire Survivors-style) roguelite built on a custom game engine. Auto-firing weapons, horde survival, and RPG stat progression, rendered as code-drawn neon geometry directly on HTML5 Canvas with no graphics library. The engine runs in two modes from the same code: a browser canvas renderer for play, and a headless renderer that runs the full simulation in Node, enabling automated balance testing via Monte Carlo runs and performance benchmarking outside the render loop. Built with React 19, TypeScript, and Vite, with Tweakpane for runtime tuning and dependency-cruiser to enforce module boundaries.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "HTML5 Canvas",
+        "Game Development",
+        "Custom Game Engine",
+        "Headless Simulation",
+        "Performance Optimization",
+        "Tweakpane",
+        "Zod",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "Shared Infrastructure Platform",
+      "type": "Personal",
+      "description": "Multi-tenant persistence layer that hosts every personal and client application on a single Hetzner VPS, keeping per-project hosting cost near zero. Postgres 18 and Redis 8 run in Docker with ports bound to 127.0.0.1 only; remote admin goes through SSH tunnels rather than exposed ports. A single provisioning script (create-app-db.sh) generates a per-app Postgres user, database, and random password and returns a ready-to-use DATABASE_URL; each app is assigned a distinct Redis DB index for isolation. Hard memory caps (1.5G Postgres, 512M Redis) prevent any one app from starving the others. Includes a documented disaster-recovery runbook (pg_dumpall + clean reinit + restore) and an in-place minor-version upgrade path. Powers Maintenance Agents, HelloSafelyFed, Shop Appforgelabs, and several other projects on the same machine.",
+      "skills": [
+        "Docker",
+        "Docker Compose",
+        "PostgreSQL",
+        "Redis",
+        "Multi-Tenancy",
+        "VPS Operations",
+        "Bash Scripting",
+        "SSH Tunneling",
+        "Disaster Recovery",
+        "Linux",
+        "Hetzner",
+        "Cost Optimization",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Income Statement",
+      "type": "Personal",
+      "description": "Personal finance snapshot tool. A CLI command pulls balances from Mercury, Wise, Kraken, Interactive Brokers (Flex Query), and CoinGecko for crypto pricing, converts everything to EUR, and persists each snapshot in PostgreSQL via Drizzle. Accounts without automated fetchers (Santander, Degiro, and similar) fall back to an interactive terminal prompt during the snapshot run, so a single command captures a full picture across automated and manual sources. A Vue 3 frontend backed by a Hono API charts the time series. Each provider's quirky response shape is parsed and normalized through Zod schemas.",
+      "skills": [
+        "Bun",
+        "Hono",
+        "TypeScript",
+        "Vue",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "Tailwind CSS",
+        "Vite",
+        "Zod",
+        "Financial APIs",
+        "Crypto",
+        "CLI Development"
+      ]
+    },
+    {
       "name": "Rico Rico",
       "type": "Personal",
       "url": "https://ricorico.vercel.app/",
