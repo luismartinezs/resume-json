@@ -1150,6 +1150,62 @@
   ],
   "projects": [
     {
+      "name": "Nuxt + Sanity Performance and Core Web Vitals Overhaul",
+      "type": "Corporate",
+      "description": "Three-month performance sprint (Oct-Dec 2025) on an FDA-regulated pharma marketing site built with Nuxt 4, Sanity, and Vercel. Closed 18+ optimization PRs against a September baseline audit. Removed unused WebGL/GLSL bundling, moved GSAP and Google Maps off the global bundle, and converted decorative assets to WebP. Replaced an ad-hoc 39-line lazy-loader with NuxtImg/Sanity provider integration site-wide across ~20 components in a single 66-file PR, restoring responsive sizes, WebP auto-format, and below-fold lazy loading. Split homepage and slug-page GROQ queries into above-the-fold critical and below-the-fold lazy buckets across 9 commits, shrinking the blocking payload that gated LCP on every CMS-driven page. Restructured the full Aeonik Pro font family into a subsetted woff+woff2 layout, added Anaheim with Latin, Latin-Ext, and Vietnamese subsets, and preloaded above-the-fold weights from the Sanity CDN. Configured Vercel edge caching for videos, PDFs, images, fonts, and captions with 7 to 30 day TTLs. Diagnosed and shipped a 4-commit Core Web Vitals fix (prerender/ISR conflict, browser cache headers, animation threshold, asset caching) that moved all 10 indexed URLs in Google Search Console from 'Needs improvement' to 'Good' within 48 hours.",
+      "skills": [
+        "Nuxt.js",
+        "Vue",
+        "Sanity",
+        "GROQ",
+        "TypeScript",
+        "Vercel",
+        "ISR",
+        "Core Web Vitals",
+        "Web Performance",
+        "WebGL",
+        "GSAP",
+        "WebP",
+        "Lazy Loading",
+        "Font Subsetting",
+        "Edge Caching",
+        "CDN",
+        "Google Search Console"
+      ]
+    },
+    {
+      "name": "Sanity-to-Vercel ISR Revalidation Webhook",
+      "type": "Corporate",
+      "description": "Built an HMAC-verified Sanity webhook to Vercel ISR revalidation route on a Nuxt 4 marketing site. Replaced time-based revalidation with on-demand invalidation, cutting content publish-to-live propagation from up to 60 minutes down to 2-3 minutes and saving an estimated $40/month in ISR write costs. Included signature verification and selective path invalidation driven by the Sanity document type and slug.",
+      "skills": [
+        "Sanity",
+        "Vercel",
+        "ISR",
+        "Webhooks",
+        "HMAC",
+        "Nuxt.js",
+        "TypeScript",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Production Support for an FDA-Regulated Pharma Marketing Site",
+      "type": "Corporate",
+      "description": "Ongoing 24/7 two-shift coverage rotation on a Nuxt 4 + Sanity + Vercel pharma marketing site under FDA-regulated content constraints. Sustained 100% production uptime since November 2025 and a Sentry performance score of 93 (7-day rolling) by January 2026. Diagnosed a 5-day silent GA4 tracking blackout (CSP blocking regional endpoints, missing nonce on inline gtag init), rebuilt CSP with wildcards, wired violations to Sentry, and added a Playwright check asserting window.gtag on every merge. Audited 1.66 TB of monthly Vercel egress and identified hardcoded MP4 patient videos as the dominant cost driver.",
+      "skills": [
+        "Nuxt.js",
+        "Sanity",
+        "Vercel",
+        "Sentry",
+        "Playwright",
+        "Content Security Policy",
+        "Google Analytics 4",
+        "Production Support",
+        "Incident Response",
+        "On-Call"
+      ]
+    },
+    {
       "name": "Rico Rico",
       "type": "Personal",
       "url": "https://ricorico.vercel.app/",
